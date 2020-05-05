@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recognize Marvel Female Superhero</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Recognize Marvel Female Superhero</h2>
+      <h4>
+        Only support :
+        <strong
+          >Black Widow, Nebula, Captain Marvel, Scarlet Witch, Mantis &
+          Gamora</strong
+        >
+      </h4>
+      <img id="image" style="width: 224px; height: 224px; object-fit: cover;" />
+      <div><input type="file" id="image-upload" /></div>
+      <div>
+        <input
+          type="submit"
+          onclick="predict()"
+          class="submit-btn"
+          value="PREDICT"
+        />
+      </div>
+      <h3 id="label-container"></h3>
+      <p id="confidence"></p>
+      <a
+        href="/samples.zip"
+        target="_blank"
+        class="download-sample-btn"
+        rel="noopener noreferrer"
+        >Download sample images</a
+      >
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8.3/dist/teachablemachine-image.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h4 {
+  font-weight: 400;
+}
+
+img {
+  display: inline-block;
+  margin: 8px 0;
+}
+
+#label-container {
+  margin-bottom: 0;
+  margin-top: 16px;
+}
+
+#confidence {
+  margin: 0;
+}
+
+.submit-btn {
+  background-color: #6777ef;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 16px;
+  padding: 8px 0;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: 224px;
+}
+
+.submit-btn:hover {
+  background-color: #95a4fc;
+}
+
+.download-sample-btn {
+  color: #6777ef;
+  display: inline-block;
+  margin-top: 36px;
+}
+
+.download-sample-btn:hover {
+  text-decoration: none;
+}

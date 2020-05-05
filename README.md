@@ -1,4 +1,5 @@
-# teachable-machine-learn
+# Teachable Machine Learn using Marvel Female Heroes
+
 Learn to use Teachable Machine: https://teachablemachine.withgoogle.com
 
-Oops. Still on Development. Need more time to find image samples :)
+Run this app with Web Server
